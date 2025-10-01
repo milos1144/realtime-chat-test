@@ -116,10 +116,10 @@ export const RealtimeChat = ({
         className="flex w-full gap-2 border-t border-border p-4"
       >
         <Input
-          className={cn(
-            "rounded-full bg-background text-sm transition-all duration-300",
-            isConnected && newMessage.trim() ? "w-[calc(100%-36px)]" : "w-full"
-          )}
+          // className={cn(
+          //   "rounded-full bg-background text-sm transition-all duration-300",
+          //   isConnected && newMessage.trim() ? "w-[calc(100%-36px)]" : "w-full"
+          // )}
           type="text"
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}

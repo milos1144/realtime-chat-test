@@ -17,7 +17,7 @@ export const CustomChat = () => {
 
   if (!showChat)
     return (
-      <div className="h-svh flex flex-col justify-center items-center w-full gap-10">
+      <div className="h-svh flex flex-col justify-center items-center w-full gap-10 px-4">
         <h1 className="text-4xl">REALTIME CHAT</h1>
         <form
           onSubmit={displayChat}
